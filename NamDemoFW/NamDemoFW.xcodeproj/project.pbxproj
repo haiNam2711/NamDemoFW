@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXAggregateTarget section */
-		266E11D92B392B2E007DCB89 /* NamDemoFW_Universal */ = {
+		266E11F42B39D62B007DCB89 /* NamDemoFW_Universal */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 266E11DA2B392B2E007DCB89 /* Build configuration list for PBXAggregateTarget "NamDemoFW_Universal" */;
+			buildConfigurationList = 266E11F52B39D62B007DCB89 /* Build configuration list for PBXAggregateTarget "NamDemoFW_Universal" */;
 			buildPhases = (
-				266E11DD2B392B51007DCB89 /* ShellScript */,
+				266E11F82B39D632007DCB89 /* ShellScript */,
 			);
 			dependencies = (
 			);
@@ -21,18 +21,18 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		266E11D12B3927B2007DCB89 /* NamDemoFW.h in Headers */ = {isa = PBXBuildFile; fileRef = 266E11D02B3927B2007DCB89 /* NamDemoFW.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		266E11D82B3927CB007DCB89 /* NamDemoFW_Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266E11D72B3927CB007DCB89 /* NamDemoFW_Service.swift */; };
+		266E11EC2B39D5C0007DCB89 /* NamDemoFW.h in Headers */ = {isa = PBXBuildFile; fileRef = 266E11EB2B39D5C0007DCB89 /* NamDemoFW.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		266E11F32B39D5EB007DCB89 /* NamNH_Sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266E11F22B39D5EB007DCB89 /* NamNH_Sample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		266E11CD2B3927B2007DCB89 /* NamDemoFW.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NamDemoFW.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		266E11D02B3927B2007DCB89 /* NamDemoFW.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NamDemoFW.h; sourceTree = "<group>"; };
-		266E11D72B3927CB007DCB89 /* NamDemoFW_Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamDemoFW_Service.swift; sourceTree = "<group>"; };
+		266E11E82B39D5C0007DCB89 /* NamDemoFW.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NamDemoFW.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		266E11EB2B39D5C0007DCB89 /* NamDemoFW.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NamDemoFW.h; sourceTree = "<group>"; };
+		266E11F22B39D5EB007DCB89 /* NamNH_Sample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamNH_Sample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		266E11CA2B3927B2007DCB89 /* Frameworks */ = {
+		266E11E52B39D5C0007DCB89 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,27 +42,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		266E11C32B3927B1007DCB89 = {
+		266E11DE2B39D5C0007DCB89 = {
 			isa = PBXGroup;
 			children = (
-				266E11CF2B3927B2007DCB89 /* NamDemoFW */,
-				266E11CE2B3927B2007DCB89 /* Products */,
+				266E11EA2B39D5C0007DCB89 /* NamDemoFW */,
+				266E11E92B39D5C0007DCB89 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		266E11CE2B3927B2007DCB89 /* Products */ = {
+		266E11E92B39D5C0007DCB89 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				266E11CD2B3927B2007DCB89 /* NamDemoFW.framework */,
+				266E11E82B39D5C0007DCB89 /* NamDemoFW.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		266E11CF2B3927B2007DCB89 /* NamDemoFW */ = {
+		266E11EA2B39D5C0007DCB89 /* NamDemoFW */ = {
 			isa = PBXGroup;
 			children = (
-				266E11D02B3927B2007DCB89 /* NamDemoFW.h */,
-				266E11D72B3927CB007DCB89 /* NamDemoFW_Service.swift */,
+				266E11EB2B39D5C0007DCB89 /* NamDemoFW.h */,
+				266E11F22B39D5EB007DCB89 /* NamNH_Sample.swift */,
 			);
 			path = NamDemoFW;
 			sourceTree = "<group>";
@@ -70,25 +70,25 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		266E11C82B3927B2007DCB89 /* Headers */ = {
+		266E11E32B39D5C0007DCB89 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				266E11D12B3927B2007DCB89 /* NamDemoFW.h in Headers */,
+				266E11EC2B39D5C0007DCB89 /* NamDemoFW.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		266E11CC2B3927B2007DCB89 /* NamDemoFW */ = {
+		266E11E72B39D5C0007DCB89 /* NamDemoFW */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 266E11D42B3927B2007DCB89 /* Build configuration list for PBXNativeTarget "NamDemoFW" */;
+			buildConfigurationList = 266E11EF2B39D5C0007DCB89 /* Build configuration list for PBXNativeTarget "NamDemoFW" */;
 			buildPhases = (
-				266E11C82B3927B2007DCB89 /* Headers */,
-				266E11C92B3927B2007DCB89 /* Sources */,
-				266E11CA2B3927B2007DCB89 /* Frameworks */,
-				266E11CB2B3927B2007DCB89 /* Resources */,
+				266E11E32B39D5C0007DCB89 /* Headers */,
+				266E11E42B39D5C0007DCB89 /* Sources */,
+				266E11E52B39D5C0007DCB89 /* Frameworks */,
+				266E11E62B39D5C0007DCB89 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -96,28 +96,28 @@
 			);
 			name = NamDemoFW;
 			productName = NamDemoFW;
-			productReference = 266E11CD2B3927B2007DCB89 /* NamDemoFW.framework */;
+			productReference = 266E11E82B39D5C0007DCB89 /* NamDemoFW.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		266E11C42B3927B1007DCB89 /* Project object */ = {
+		266E11DF2B39D5C0007DCB89 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1510;
 				TargetAttributes = {
-					266E11CC2B3927B2007DCB89 = {
+					266E11E72B39D5C0007DCB89 = {
 						CreatedOnToolsVersion = 15.1;
 						LastSwiftMigration = 1510;
 					};
-					266E11D92B392B2E007DCB89 = {
+					266E11F42B39D62B007DCB89 = {
 						CreatedOnToolsVersion = 15.1;
 					};
 				};
 			};
-			buildConfigurationList = 266E11C72B3927B1007DCB89 /* Build configuration list for PBXProject "NamDemoFW" */;
+			buildConfigurationList = 266E11E22B39D5C0007DCB89 /* Build configuration list for PBXProject "NamDemoFW" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -125,19 +125,19 @@
 				en,
 				Base,
 			);
-			mainGroup = 266E11C32B3927B1007DCB89;
-			productRefGroup = 266E11CE2B3927B2007DCB89 /* Products */;
+			mainGroup = 266E11DE2B39D5C0007DCB89;
+			productRefGroup = 266E11E92B39D5C0007DCB89 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				266E11CC2B3927B2007DCB89 /* NamDemoFW */,
-				266E11D92B392B2E007DCB89 /* NamDemoFW_Universal */,
+				266E11E72B39D5C0007DCB89 /* NamDemoFW */,
+				266E11F42B39D62B007DCB89 /* NamDemoFW_Universal */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		266E11CB2B3927B2007DCB89 /* Resources */ = {
+		266E11E62B39D5C0007DCB89 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -147,7 +147,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		266E11DD2B392B51007DCB89 /* ShellScript */ = {
+		266E11F82B39D632007DCB89 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -162,23 +162,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\n# iOS devices\nxcodebuild archive \\\n    -scheme ${PROJECT_NAME} \\\n    -archivePath \"./archives/iOS_Device.xcarchive\" \\\n    -destination \"generic/platform=iOS\" \\\n    SKIP_INSTALL=NO \\\n    BUILD_LIBRARY_FOR_DISTRIBUTION=YES\n\n# iOS simulators\nxcodebuild archive \\\n    -scheme ${PROJECT_NAME} \\\n    -archivePath \"./archives/iOS-Sim.xcarchive\" \\\n    -destination \"generic/platform=iOS Simulator\" \\\n    SKIP_INSTALL=NO \\\n    BUILD_LIBRARY_FOR_DISTRIBUTION=YES\n\n# Create framework\nxcodebuild -create-xcframework \\\n    -framework \"./archives/iOS_Device.xcarchive/Products/Library/Frameworks/${PROJECT_NAME}.framework\" \\\n    -framework \"./archives/iOS-Sim.xcarchive/Products/Library/Frameworks/${PROJECT_NAME}.framework\" \\\n    -output \"${PROJECT_NAME}.xcframework\"\n\nrm -rf archives\n";
+			shellScript = "REVEAL_ARCHIVE_IN_FINDER=true\n\nrm -rf \"./Output\"\n\necho \"=== Building for iPhone device ===\"\nxcodebuild archive \\\n  -scheme ${PROJECT_NAME} \\\n  -sdk iphoneos \\\n  -archivePath \"./Output/archives/ios_devices.xcarchive\" \\\n  BUILD_LIBRARY_FOR_DISTRIBUTION=YES \\\n  SKIP_INSTALL=NO\n  \necho \"=== Building for iPhone simulators ===\"\n  xcodebuild archive \\\n  -scheme ${PROJECT_NAME} \\\n  -sdk iphonesimulator \\\n  -archivePath \"./Output/archives/ios_simulators.xcarchive\" \\\n  BUILD_LIBRARY_FOR_DISTRIBUTION=YES \\\n  SKIP_INSTALL=NO\n  \necho \"=== Combining executables ===\"\n  xcodebuild -create-xcframework \\\n-framework ./Output/archives/ios_devices.xcarchive/Products/Library/Frameworks/${PROJECT_NAME}.framework \\\n-framework ./Output/archives/ios_simulators.xcarchive/Products/Library/Frameworks/${PROJECT_NAME}.framework \\\n-output Output/build/${PROJECT_NAME}.xcframework\n\necho \"=== Open Finder ===\"\nif [ ${REVEAL_ARCHIVE_IN_FINDER} = true ]; then\n  open \"./Output/build/\"\nfi\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		266E11C92B3927B2007DCB89 /* Sources */ = {
+		266E11E42B39D5C0007DCB89 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				266E11D82B3927CB007DCB89 /* NamDemoFW_Service.swift in Sources */,
+				266E11F32B39D5EB007DCB89 /* NamNH_Sample.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		266E11D22B3927B2007DCB89 /* Debug */ = {
+		266E11ED2B39D5C0007DCB89 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -216,7 +216,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -242,7 +242,7 @@
 			};
 			name = Debug;
 		};
-		266E11D32B3927B2007DCB89 /* Release */ = {
+		266E11EE2B39D5C0007DCB89 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -280,7 +280,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -298,7 +298,7 @@
 			};
 			name = Release;
 		};
-		266E11D52B3927B2007DCB89 /* Debug */ = {
+		266E11F02B39D5C0007DCB89 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
@@ -339,7 +339,7 @@
 			};
 			name = Debug;
 		};
-		266E11D62B3927B2007DCB89 /* Release */ = {
+		266E11F12B39D5C0007DCB89 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
@@ -379,20 +379,24 @@
 			};
 			name = Release;
 		};
-		266E11DB2B392B2E007DCB89 /* Debug */ = {
+		266E11F62B39D62B007DCB89 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9G9YD8GX8D;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		266E11DC2B392B2E007DCB89 /* Release */ = {
+		266E11F72B39D62B007DCB89 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9G9YD8GX8D;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -400,34 +404,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		266E11C72B3927B1007DCB89 /* Build configuration list for PBXProject "NamDemoFW" */ = {
+		266E11E22B39D5C0007DCB89 /* Build configuration list for PBXProject "NamDemoFW" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				266E11D22B3927B2007DCB89 /* Debug */,
-				266E11D32B3927B2007DCB89 /* Release */,
+				266E11ED2B39D5C0007DCB89 /* Debug */,
+				266E11EE2B39D5C0007DCB89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		266E11D42B3927B2007DCB89 /* Build configuration list for PBXNativeTarget "NamDemoFW" */ = {
+		266E11EF2B39D5C0007DCB89 /* Build configuration list for PBXNativeTarget "NamDemoFW" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				266E11D52B3927B2007DCB89 /* Debug */,
-				266E11D62B3927B2007DCB89 /* Release */,
+				266E11F02B39D5C0007DCB89 /* Debug */,
+				266E11F12B39D5C0007DCB89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		266E11DA2B392B2E007DCB89 /* Build configuration list for PBXAggregateTarget "NamDemoFW_Universal" */ = {
+		266E11F52B39D62B007DCB89 /* Build configuration list for PBXAggregateTarget "NamDemoFW_Universal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				266E11DB2B392B2E007DCB89 /* Debug */,
-				266E11DC2B392B2E007DCB89 /* Release */,
+				266E11F62B39D62B007DCB89 /* Debug */,
+				266E11F72B39D62B007DCB89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 266E11C42B3927B1007DCB89 /* Project object */;
+	rootObject = 266E11DF2B39D5C0007DCB89 /* Project object */;
 }

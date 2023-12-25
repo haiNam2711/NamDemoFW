@@ -16,8 +16,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "Service",
-        "printedName": "Service",
+        "name": "NamNH_Sample",
+        "printedName": "NamNH_Sample",
         "children": [
           {
             "kind": "Function",
@@ -32,8 +32,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:9NamDemoFW7ServiceC12sampleStringSSyFZ",
-            "mangledName": "$s9NamDemoFW7ServiceC12sampleStringSSyFZ",
+            "usr": "s:9NamDemoFW0A9NH_SampleC12sampleStringSSyFZ",
+            "mangledName": "$s9NamDemoFW0A9NH_SampleC12sampleStringSSyFZ",
             "moduleName": "NamDemoFW",
             "static": true,
             "declAttributes": [
@@ -44,8 +44,8 @@
           }
         ],
         "declKind": "Class",
-        "usr": "s:9NamDemoFW7ServiceC",
-        "mangledName": "$s9NamDemoFW7ServiceC",
+        "usr": "s:9NamDemoFW0A9NH_SampleC",
+        "mangledName": "$s9NamDemoFW0A9NH_SampleC",
         "moduleName": "NamDemoFW",
         "declAttributes": [
           "AccessControl"
@@ -57,7 +57,7 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/hainam2711\/Desktop\/MyDocument\/XCFramework\/NamDemoFW\/NamDemoFW\/NamDemoFW\/NamDemoFW_Service.swift",
+      "filePath": "\/Users\/hainam2711\/Desktop\/MyDocument\/XCFramework\/NamDemoFW\/NamDemoFW\/NamDemoFW\/NamNH_Sample.swift",
       "kind": "StringLiteral",
       "offset": 197,
       "length": 5,

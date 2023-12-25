@@ -8,7 +8,7 @@ import Swift
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-@_hasMissingDesignatedInitializers public class Service {
+@_hasMissingDesignatedInitializers public class NamNH_Sample {
   public static func sampleString() -> Swift.String
   @objc deinit
 }
