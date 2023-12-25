@@ -1,0 +1,67 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NamDemoFW",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Service",
+        "printedName": "Service",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "sampleString",
+            "printedName": "sampleString()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9NamDemoFW7ServiceC12sampleStringSSyFZ",
+            "mangledName": "$s9NamDemoFW7ServiceC12sampleStringSSyFZ",
+            "moduleName": "NamDemoFW",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:9NamDemoFW7ServiceC",
+        "mangledName": "$s9NamDemoFW7ServiceC",
+        "moduleName": "NamDemoFW",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/hainam2711\/Desktop\/MyDocument\/XCFramework\/NamDemoFW\/NamDemoFW\/NamDemoFW\/NamDemoFW_Service.swift",
+      "kind": "StringLiteral",
+      "offset": 197,
+      "length": 5,
+      "value": "\"abc\""
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+framework module NamDemoFW {
+  umbrella header "NamDemoFW.h"
+  export *
+
+  module * { export * }
+}
+
+module NamDemoFW.Swift {
+  header "NamDemoFW-Swift.h"
+  requires objc
+}
